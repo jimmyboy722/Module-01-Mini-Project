@@ -3,6 +3,7 @@
     padding: 0%;
     /*universal selector for entire document*/
 }
+
 header{
     background-color: #326b52;
     border-bottom: 7px solid #f2c9aa;
@@ -11,43 +12,52 @@ header{
     height: 35px;
     padding-top: 7px;
 }
+
 a{
     color: #fff7f0;
     text-decoration: none;
 }
+
 body{
     background-color: #fff7f0;
     color: #423920;
     font-size: 20px;
     font-family: sans-serif;
 }
+
 h1{
     padding: 55px;
     text-align: center;
 }
 figure{
     margin-bottom: 40px;
+    text-align: center;
 }
-image{
+
+img{
     display: block;  
     margin: 0 auto; 
 }
+
 li{
     display: inline;
     padding-right: 20px;
     padding-top: 5px;
 }
+
 section{
     background-color: #f2c9aa;
     margin-bottom: 0px;
     border-top:  2px solid #c7a083;
     padding: 15px 5px 30px 5px;
 }
+
 h2{
     padding: 20px;
     margin-bottom:20px;
     text-align: center;
 }
+
 form{
     border: 5px solid #c7a083;
     margin: 0 auto;
@@ -55,12 +65,16 @@ form{
     padding: 5px;
     border-radius: 15px;
 }
+
 button{
     color: #fff7f0;
     background-color: #423920;
     height: 45px;
-    width: 100px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 57px;
 }
+
 footer{
     background-color: #326b52;
     color: #fff7f0;
@@ -69,17 +83,16 @@ footer{
     width: 100%;
     text-align: center;
 }
+
 .links{
-    text-align: right;
-    ;
+    text-align: right;  
 }
-.centered text{
+
+.centered{
     text-align: center;
 }
+
 .form-items li{
     display: block;
     text-align: center;
-}
-#box-img{
-    margin: 0 auto;
 }
